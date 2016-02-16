@@ -2,20 +2,18 @@
 
 ## features
 
-* [ ] serve resources
-* [ ] serve containers
-* [ ] post new resources to containers
-* [ ] link existin resources to containers
+* [x] serve resources
+* [x] serve containers
+* [x] post new resources to containers
+* [ ] link existing resources to containers
 * [ ] create new containers
 * [ ] create new workspace
-* [ ] verify signatures
 
 ## dependencies
 
 ### o-*
 
 * o-api-hapi
-* o-cli-service
 
 ### common
 
@@ -23,3 +21,9 @@
 * level
 * forkdb
  * sprom
+
+## config
+
+### db
+
+currently assumes forkdb, use absolute paths for *level* and *fork*

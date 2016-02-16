@@ -1,0 +1,30 @@
+{
+  "name": "o-service-workspace",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackers4peace/o-service-workspace.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/hackers4peace/o-service-workspace/issues"
+  },
+  "homepage": "https://github.com/hackers4peace/o-service-workspace#readme",
+  "dependencies": {
+    "good": "^6.4.0",
+    "good-console": "^5.2.0",
+    "hapi": "^12.0.1",
+    "o-api-hapi": "0.0.1",
+    "o-storage-forkdb": "0.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13"
+  }
+}
